@@ -1,8 +1,12 @@
 {
   "name": "caba",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple counter in console",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/astur/caba.git"
+  },
   "scripts": {
     "test": "echo \"No test specified\" && exit 1"
   },
