@@ -1,4 +1,5 @@
-module.exports = function (text, i){
+function Caba(text, i){
+    if(!(this instanceof Caba)) {return new Caba();}
     var _i = i || 0;
     var _text = text || '%s';
     var _visible = false;
@@ -43,3 +44,5 @@ module.exports = function (text, i){
         _text = '%s';
     };
 };
+
+module.exports = Caba; 
