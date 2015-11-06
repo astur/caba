@@ -43,15 +43,3 @@ module.exports = function (text, i){
         _text = '%s';
     };
 };
-
-
-/*
-
-- создать счётчик (текст, начальное значение) // var caba = require('caba')();   // var caba = require('caba')('%s tasks done.', 0);
-- начать (текст, начальное значение)          // caba.start();                   // caba.start('%s tasks done.', 0);
-- инкрементировать (величина)                 // caba.step();                    // caba.step(5);
-- пропустить вывод в консоль                  // caba.log('TEST');               // caba.log(a, b, c, d);
-- удалить счётчик                             // caba.stop();
-- завершить счётчик                           // caba.finish();                  // caba.finish('Well done %s tasks!', 100);
-
-*/
