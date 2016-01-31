@@ -1,5 +1,5 @@
 function Caba(text, i){
-    if(!(this instanceof Caba)) {return new Caba();}
+    if(!(this instanceof Caba)) {return new Caba(text, i);}
     var _i = i || 0;
     var _text = text || '%s';
     var _visible = false;
