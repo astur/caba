@@ -2,6 +2,8 @@
 
 Simple counter in console.
 
+This package is deprecated and not supported any more. I recomend to use it's successor - [cllc](https://github.com/astur/cllc).
+
 ## Install
 
 ```bash
